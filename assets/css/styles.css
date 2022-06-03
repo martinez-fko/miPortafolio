@@ -17,17 +17,22 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
-
-h1{
-    font-size: 80px;
+.titulo{
+    font-size: 50px;
     font-weight:600px ;
 }
 
-h2{
-    font-size: 40px;
-    font-weight: 400px;
+.subtitulo{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.subsection{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 nav{
@@ -36,7 +41,6 @@ nav{
     align-items: center;
     padding: 0.5rem 1.25rem;
     height: 60px;
-
 }
 
 input#menu-hamburguesa ~ ul{
@@ -74,31 +78,54 @@ input#menu-hamburguesa:checked ~ ul{
     display: flex;
 }
 
-/* input#menu-hamburguesa:checked ~ ul{
-    display: flex;
-} */
-
-/* input#menu-hamburguesa ~ ul li
-{
-    display: block;
-    width: 100%;
-}
-input#menu-hamburguesa ~ ul li a{
-    display: block;
-    width: 100%;
-    padding: 1rem;
-} */
-
-/* 
-input#menu-hamburguesa ~ ul a:hover{
-    background-color: var(--color-purple);
-} */
-
-
-
-
-
-/* input#menu-hamburguesa{
+input#menu-hamburguesa{
     visibility: hidden;
-} */
+}
 
+/* header */
+
+.seccion_principal{
+    padding-left: 1rem;
+}
+
+.seccion_info{
+    display: flex;
+}
+
+.seccion_info img {
+    max-width: 49%;
+    object-fit: cover;
+}
+
+.box_info{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box_info .experiencia{
+    color: var(--color-dark-black);
+
+}
+
+.box_info .experiencia span {
+    color: var(--color-purple);
+}
+
+.seccion__redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.seccion__redes .icon{
+    width: 45px;
+    height: 45px;
+    background-color: var(--color-purple);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
