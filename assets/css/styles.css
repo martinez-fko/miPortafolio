@@ -18,6 +18,8 @@
 body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    font-weight: 400;
+    background-color: var(--color-white);
 }
 
 .titulo{
@@ -84,12 +86,17 @@ input#menu-hamburguesa{
 
 /* header */
 
+.seccion_titulo{
+    margin-bottom: 1.5rem;
+}
+
 .seccion_principal{
     padding-left: 1rem;
 }
 
 .seccion_info{
     display: flex;
+    height: 300px;
 }
 
 .seccion_info img {
@@ -128,4 +135,18 @@ input#menu-hamburguesa{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.seccion_btn a {
+    background-color: var(--color-purple);
+    display: flex;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;    
+    gap: 1rem;
+    width: 55%;
+    margin: 2rem auto;
 }
