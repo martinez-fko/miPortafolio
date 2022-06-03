@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+    --color-purple: #8E7BEF;
+    --color-black: #222222;
+    --color-yellow: #FCDA68;
+    --color-dark-black: #423F49;
+    --color-white: #FFFFFF;
+    --color-gray: #F9F5F2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight:600px ;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.25rem;
+    height: 60px;
+
+}
+
+input#menu-hamburguesa ~ ul{
+    background-color: var(--color-purple);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 1.5rem 0;
+}
+
+input#menu-hamburguesa ~ ul li{
+    width: 100%;
+}
+
+input#menu-hamburguesa ~ ul li a{
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+input#menu-hamburguesa ~ ul li a:hover{
+    background-color: var(--color-yellow);
+}
+
+
+input#menu-hamburguesa:checked ~ ul{
+    display: flex;
+}
+
+/* input#menu-hamburguesa:checked ~ ul{
+    display: flex;
+} */
+
+/* input#menu-hamburguesa ~ ul li
+{
+    display: block;
+    width: 100%;
+}
+input#menu-hamburguesa ~ ul li a{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+} */
+
+/* 
+input#menu-hamburguesa ~ ul a:hover{
+    background-color: var(--color-purple);
+} */
+
+
+
+
+
+/* input#menu-hamburguesa{
+    visibility: hidden;
+} */
+
