@@ -150,3 +150,77 @@ input#menu-hamburguesa{
     width: 55%;
     margin: 2rem auto;
 }
+
+/* Habilidades y Experiencia */
+
+.section-skill{
+    background-color: var(--color-yellow);
+    padding: 2rem 1rem 3rem;
+}
+
+.section-skill h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.experience{
+    margin-top: 1rem;
+}
+
+.experience h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.experience__item{
+    display: flex;
+    gap: 1.75rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.experience__item h4{
+    font-size: 16px;
+}
+
+ .experience__item:nth-child(2),
+ .experience__item:nth-child(3){
+    border-bottom: 2px solid var(--color-dark-black);
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 2rem;
+}
+
+.habilidades__box img{
+    width: 50px;
+}
+
+/* Portafolio */
+
+.portafolio{
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1rf;
+    gap: 1.75rem;
+}
+
+.portafolio h2{
+    font-size: 32px;
+}
+
+
+.portafolio__item h3 {
+    font-size: 20px;
+    color: var(--color-purple);
+    margin-bottom: .75rem;
+}
+
+.portafolio__item img{
+    width: 100%;
+}
