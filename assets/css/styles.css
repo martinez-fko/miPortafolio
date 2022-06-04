@@ -104,16 +104,15 @@ input#menu-hamburguesa{
 
 
 .header{
-    padding: 1rem;
-    padding-right: 2rem;
+    padding: 0 1rem;
     display: grid;
     grid-template-areas:
     "titulo titulo"
     "image info"
     "btn btn";
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px 45%;
     grid-template-rows: auto 250px auto;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .header__box-titulo{
@@ -264,39 +263,38 @@ input#menu-hamburguesa{
 /* Responsividad  */
 
 
-/* Movil */
+/* tablet */
 @media screen and (min-width: 660px) {
     /* Header */
     .header{
-        padding: 0 2rem;
         grid-template-areas:
         "titulo  image info"
+        "titulo image info"
         "btn image info";
-        gap: 1;
-        grid-template-columns: 50% 25% 25%;
+        grid-template-columns: 40% 30% 30%;
+    grid-template-rows: auto auto auto;
+        gap: .5rem;
+        margin: 2rem;
+        margin-bottom: 2rem;
     }
 
     .header__box-titulo{
-        text-align: left;
+       display: flex;
+       flex-direction: column;
     }
 
-    .header__box-titulo h3 {
-        margin: 0;
-    }
 
     .header__box-info{
         justify-content: flex-start;
-    }
+        padding-top: 3rem;
+     }
 
     .header__box-info p{
         margin-bottom: .75rem;
     }
 
     .header__box-image img {
-        max-width: 185px;
-        height: 250px;
         object-fit: cover;
-        object-position: center;
     }
 
     .header__box-btn a{
@@ -311,12 +309,15 @@ input#menu-hamburguesa{
 
 @media only screen and (min-width: 992px) {
     /* header */
+    
     .header{
-        padding:0  10rem;
+        grid-template-columns: 40% 30% 25%;
+        grid-template-rows: 30% 30% auto;
+        margin: 0 5rem 2rem;
     }
 
-    .header__box-image img {
-        min-width: 170px;
-        object-fit: cover;
-    }
+    
+
+
+
 }
