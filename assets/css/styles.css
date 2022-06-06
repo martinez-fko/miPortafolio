@@ -276,6 +276,25 @@ input#menu-hamburguesa{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+
+    body{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 80px;
+     }
+     
+     h2{
+         font-size: 40px;
+         font-weight: 600
+     }
+     
+     h3{
+         font-size: 24px;
+     }
+     
+
     /* Header */
     .header{
         width: 90%;
@@ -288,6 +307,14 @@ input#menu-hamburguesa{
         margin-bottom: 2rem;
     }
 
+    .header__box-titulo h1{
+        font-size: 80px;
+    }
+    
+    .header__box-titulo h1{
+        font-size: 80px;
+    }
+    
 
     .header__box-info{
         justify-content: flex-start;
@@ -322,7 +349,7 @@ input#menu-hamburguesa{
     /* header */
 
     .header{
-        width: 80%;
+        width: 70%;
     }
 
     .header__box-info{
