@@ -38,15 +38,6 @@ h3{
     font-weight: 400;
 }
 
-/* .titulo{
-    font-size: 50px;
-    font-weight:600px ;
-}
-
-.subtitulo{
-    font-size: 23px;
-    font-weight: 400;
-} */
 
 .subsection{
     font-size: 20px;
@@ -189,21 +180,20 @@ input#menu-hamburguesa{
 
 .skills-experience{
     background-color: var(--color-yellow);
-    padding: 2rem 1rem 3rem;
+    padding: 3rem 0;
 }
 
-.title h2{
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 1rem;
+.skills-experience__box{
+    width: 90%;
+    margin: 0 auto;
 }
+
 
 .experience{
     margin-top: 1rem;
 }
 
 .experience h3{
-    font-size: 20px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -215,9 +205,6 @@ input#menu-hamburguesa{
     padding-bottom: 1rem;
 }
 
-.experience__item h4{
-    font-size: 16px;
-}
 
  .experience__item:nth-child(2),
  .experience__item:nth-child(3){
@@ -225,10 +212,17 @@ input#menu-hamburguesa{
 }
 
 .habilidades {
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     gap: 2rem;
+    margin: 0 auto;
+}
+
+.habilidades h3 {
+    text-align: left;
+    grid-column: 1 / 3;
 }
 
 .habilidades__box img{
@@ -238,15 +232,14 @@ input#menu-hamburguesa{
 /* Portafolio */
 
 .portafolio{
-    padding: 2rem 1rem;
+    width: 90%;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 1rf;
     gap: 1.75rem;
+
 }
 
-.portafolio h2{
-    font-size: 32px;
-}
 
 
 .portafolio__item h3 {
@@ -258,12 +251,31 @@ input#menu-hamburguesa{
 .portafolio__item img{
     width: 100%;
 }
+/* Contacto */
+.contacto {
+    width: 90%;
+    margin: 1rem auto;
+}
 
+.contacto__box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contacto__icon{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-gray);
+    border-radius: 50%;
+    padding: 1rem;
+}
 
 /* Responsividad  */
 
 @media screen and (min-width: 600px) {
-    .header{
+    .header , .skills-experience__box , .portafolio{
         width: 80%;
     }
 
@@ -277,23 +289,18 @@ input#menu-hamburguesa{
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
-    body{
-        font-size: 18px;
+     label{
+        display: none;
     }
-
-    h1{
-        font-size: 80px;
-     }
      
-     h2{
-         font-size: 40px;
-         font-weight: 600
-     }
-     
-     h3{
-         font-size: 24px;
-     }
-     
+     input#menu-hamburguesa ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: flex-end;
+    }
 
     /* Header */
     .header{
@@ -307,14 +314,9 @@ input#menu-hamburguesa{
         margin-bottom: 2rem;
     }
 
-    .header__box-titulo h1{
-        font-size: 80px;
+    .habilidades h3 {
+        grid-column: 1 / 5;
     }
-    
-    .header__box-titulo h1{
-        font-size: 80px;
-    }
-    
 
     .header__box-info{
         justify-content: flex-start;
@@ -335,11 +337,59 @@ input#menu-hamburguesa{
     }
 
     /* skills and experience */
+   
     .skills-experience__box{
+        width: 90%;
         display: flex;
         gap: 2rem;
     }
+
+    .skill-experience__title{
+        width: 50%;
+    }
+    
+    .experience{
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .habilidades {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .portafolio{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .portafolio h2{
+        grid-column: 1 / 4;
+    }
+
+
+
    
+}
+
+@media screen and (min-width:992px ) {
+
+    body{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 80px;
+     }
+   
+     h2{
+         font-size: 40px;
+         font-weight: 600
+     }
+     
+     h3{
+         font-size: 24px;
+     }
+
+    
 }
 
 
@@ -348,7 +398,7 @@ input#menu-hamburguesa{
 @media only screen and (min-width: 1200px) {
     /* header */
 
-    .header{
+    .header , .skills-experience__box , .habilidades, .portafolio{
         width: 70%;
     }
 
