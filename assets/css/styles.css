@@ -188,6 +188,10 @@ input#menu-hamburguesa{
     margin: 0 auto;
 }
 
+.skill-experience__title h2{
+    margin-bottom: 1rem;
+}
+
 
 .experience{
     margin-top: 1rem;
@@ -347,6 +351,8 @@ input#menu-hamburguesa{
     .skill-experience__title{
         width: 50%;
     }
+
+   
     
     .experience{
         width: 50%;
