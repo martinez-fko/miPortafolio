@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Portafolio | José Francisco</title>
   </head>
-  <body>
+  <body id="home">
+
     <nav>
       <input type="checkbox" id="menu-hamburguesa" />
       <label for="menu-hamburguesa">
         <img src="./assets/images/menu 1.svg" alt="" />
       </label>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Experiencia y habilidades</a></li>
-        <li><a href="#">Portafolio</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#habilidadesExperiencia">Experiencia y habilidades</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
 
@@ -26,7 +27,6 @@
         <h1>Frontend developer</h1>
         <h3>Hola Mundo! Soy Francisco Martínez tengo 29 años.</h3>
       </div>
-      <!-- termina header -->
       <div class="header__box-image">
         <img src="assets/images/francisco.jpeg" alt="" />
       </div>
@@ -58,8 +58,9 @@
       </div>
       <!-- termina seccion_btn -->
     </section>
+    <!-- termina header -->
 
-    <section class="skills-experience">
+    <section class="skills-experience" id="habilidadesExperiencia">
       <div class="skills-experience__box">
         <div class="skill-experience__title">
           <h2>Experiencia y habilidades</h2>
@@ -90,8 +91,6 @@
           </div>
         </div>
       </div>
-
-      
       <div class="habilidades">
         <h3>Habilidades</h3>
         <div class="habilidades__box">
@@ -113,7 +112,7 @@
       </div>
     </section>
     <!-- termina habilidades y experencia -->
-    <section class="portafolio">
+    <section class="portafolio" id="portafolio">
       <h2>Portafolio</h2>
       <div class="portafolio__item">
         <h3>Beauty app</h3>
@@ -128,7 +127,8 @@
         <img src="assets/images/Group 46.jpg" alt="" />
       </div>
     </section>
-    <section class="contacto">
+    <!-- termina portafolio -->
+    <section class="contacto" id="contacto">
         <h2>Contacto</h2>
         <div class="contacto__box">
           <div class="contacto__">
@@ -147,5 +147,6 @@
           </div>
         </div>
     </section>
+    <!-- termina contacto -->
   </body>
 </html>
