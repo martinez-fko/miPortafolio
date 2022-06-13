@@ -1,4 +1,4 @@
-# miPortafolio
+# Mi Portafolio
 Portafolio para desarrollador front end
 
 Hola Mundo!.. 
