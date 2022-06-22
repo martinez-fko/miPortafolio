@@ -1,159 +1,208 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Portafolio | José Francisco</title>
-  </head>
-  <body id="home">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <title>Portafolio | José Francisco</title>
+    </head>
+    <body id="home">
+        <nav>
+            <input type="checkbox" id="menu-hamburguesa" />
+            <label for="menu-hamburguesa">
+                <img src="./assets/images/menu 1.svg" alt="" />
+            </label>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="#habilidadesExperiencia"
+                        >Experiencia y habilidades</a
+                    >
+                </li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
 
-    <nav>
-      <input type="checkbox" id="menu-hamburguesa" />
-      <label for="menu-hamburguesa">
-        <img src="./assets/images/menu 1.svg" alt="" />
-      </label>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#habilidadesExperiencia">Experiencia y habilidades</a></li>
-        <li><a href="#portafolio">Portafolio</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-
-    <section class="header">
-      <div class="header__box-titulo">
-        <h1>Frontend developer</h1>
-        <h3>Hola Mundo! Soy Francisco Martínez tengo 29 años.</h3>
-      </div>
-      <div class="header__box-image">
-        <img src="assets/images/francisco.jpeg" alt="" />
-      </div>
-
-      <div class="header__box-info">
-        <p>Me gusta desarrollar mis habilidades como programador.</p>
-        <p><span>+ 1 año </span> de experencia</p>
-
-        <div class="header__redes">
-          <a class="header__icon" href="#">
-            <img src="assets/images/cib_linkedin-in.svg" alt="" />
-          </a>
-          <a class="header__icon" href="#">
-            <img src="assets/images/ant-design_instagram-filled.svg" alt="" />
-          </a>
-          <a class="header__icon" href="#">
-            <img src="assets/images/ant-design_twitter-outlined.svg" alt="" />
-          </a>
-        </div>
-        <!-- termina seccion__redes -->
-      </div>
-      <!-- termina seccion_info -->
-
-      <div class="header__box-btn">
-        <a href="">
-          <img src="./assets/images/mail 3.svg" alt="" />
-          Contáctame
-        </a>
-      </div>
-      <!-- termina seccion_btn -->
-    </section>
-    <!-- termina header -->
-
-    <section class="skills-experience" id="habilidadesExperiencia">
-      <div class="skills-experience__box">
-        <div class="skill-experience__title">
-          <h2>Experiencia y habilidades</h2>
-          <p>El trabajo duro de termina la experiencia y las habilidades que uno adquiere a lo largo de su carrera.</p>
-        </div>
-        <div class="experience">
-          <h3>Experiencia</h3>
-          <div class="experience__item">
-            <p>2022 - Act.</p>
-            <div>
-              <h4>Academlo</h4>
-              <p>Estudios para programador jr.</p>
+        <section class="header">
+            <div class="header__box-titulo">
+                <h1>Frontend developer</h1>
+                <h3>Hola Mundo! Soy Francisco Martínez tengo 29 años.</h3>
             </div>
-          </div>
-          <div class="experience__item">
-            <p>2016 - 2018</p>
-            <div>
-              <h4>Product designer</h4>
-              <p>Miscrosoft</p>
+            <div class="header__box-image">
+                <img src="assets/images/francisco.jpeg" alt="" />
             </div>
-          </div>
-          <div class="experience__item">
-            <p>2016 - 2018</p>
-            <div>
-              <h4>UI Enginner</h4>
-              <p>Google</p>
+
+            <div class="header__box-info">
+                <p>Me gusta desarrollar mis habilidades como programador.</p>
+                <p><span>+ 1 año </span> de experencia</p>
+
+                <div class="header__redes">
+                    <a class="header__icon" href="#">
+                        <img src="assets/images/cib_linkedin-in.svg" alt="" />
+                    </a>
+                    <a class="header__icon" href="#">
+                        <img
+                            src="assets/images/ant-design_instagram-filled.svg"
+                            alt=""
+                        />
+                    </a>
+                    <a class="header__icon" href="#">
+                        <img
+                            src="assets/images/ant-design_twitter-outlined.svg"
+                            alt=""
+                        />
+                    </a>
+                </div>
+                <!-- termina seccion__redes -->
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="habilidades">
-        <h3>Habilidades</h3>
-        <div class="habilidades__box">
-          <img src="./assets/images/ant-design_mobile-filled.svg" alt="" />
-          <p>Mobile app desing</p>
-        </div>
-        <div class="habilidades__box">
-          <img src="./assets/images/mdi_motion.svg" alt="" />
-          <p>Trabajo en equipo</p>
-        </div>
-        <div class="habilidades__box">
-          <img src="./assets/images/mdi_material-design.svg" alt="" />
-          <p>Creación de mantenimiento de sistemas de diseño</p>
-        </div>
-        <div class="habilidades__box">
-          <img src="assets/images/ant-design_project-filled.svg" alt="" />
-          <p>Gestión de proyectos</p>
-        </div>
-      </div>
-    </section>
-    <!-- termina habilidades y experencia -->
-    <section class="portafolio" id="portafolio">
-      <h2>Portafolio</h2>
-      <div class="portafolio__item">
-        <h3>Beauty app</h3>
-        <img src="assets/images/Group 48.jpg" alt="" />
-      </div>
-      <div class="portafolio__item">
-        <h3>Training app</h3>
-        <img src="assets/images/Group 47.jpg" alt="" />
-      </div>
-      <div class="portafolio__item">
-        <h3>Hotel app</h3>
-        <img src="assets/images/Group 46.jpg" alt="" />
-      </div>
-    </section>
-    <!-- termina portafolio -->
-    <section class="contacto" id="contacto">
-        <h2>Contacto</h2>
-        <div class="contacto__box">
-          <div class="contacto__box-info">
-            <div class="contacto__icon">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M36.6669 28.2V33.2C36.6688 33.6642 36.5737 34.1236 36.3877 34.5489C36.2018 34.9742 35.929 35.356 35.587 35.6698C35.245 35.9836 34.8412 36.2225 34.4015 36.3712C33.9618 36.5199 33.4958 36.5751 33.0335 36.5333C27.9049 35.9761 22.9785 34.2236 18.6502 31.4167C14.6233 28.8578 11.2091 25.4436 8.65021 21.4167C5.83351 17.0687 4.08062 12.1183 3.53355 6.96666C3.4919 6.50577 3.54667 6.04126 3.69438 5.6027C3.84209 5.16414 4.0795 4.76114 4.39149 4.41936C4.70348 4.07758 5.08322 3.8045 5.50653 3.61753C5.92984 3.43055 6.38745 3.33376 6.85021 3.33332H11.8502C12.6591 3.32536 13.4432 3.61179 14.0565 4.13921C14.6698 4.66663 15.0703 5.39907 15.1835 6.19999C15.3946 7.8001 15.786 9.3712 16.3502 10.8833C16.5745 11.4799 16.623 12.1282 16.4901 12.7515C16.3571 13.3747 16.0483 13.9468 15.6002 14.4L13.4835 16.5167C15.8561 20.6892 19.311 24.1441 23.4835 26.5167L25.6002 24.4C26.0534 23.9519 26.6255 23.6431 27.2487 23.5101C27.872 23.3772 28.5203 23.4257 29.1169 23.65C30.629 24.2142 32.2001 24.6056 33.8002 24.8167C34.6098 24.9309 35.3492 25.3387 35.8778 25.9625C36.4063 26.5863 36.6872 27.3826 36.6669 28.2Z" fill="#8e7bef"/>
-                </svg>
+            <!-- termina seccion_info -->
+
+            <div class="header__box-btn">
+                <a href="">
+                    <img src="./assets/images/mail 3.svg" alt="" />
+                    Contáctame
+                </a>
             </div>
-            <p>Número celular</p>
-            <p>5522123456</p>
-          </div>
-          <div class="contacto__box-info">
-            <div class="contacto__icon">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.66683 6.66666H33.3335C35.1668 6.66666 36.6668 8.16666 36.6668 9.99999V30C36.6668 31.8333 35.1668 33.3333 33.3335 33.3333H6.66683C4.8335 33.3333 3.3335 31.8333 3.3335 30V9.99999C3.3335 8.16666 4.8335 6.66666 6.66683 6.66666Z" fill="#8e7bef" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999" fill="#8e7bef"/>
-                <path d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+            <!-- termina seccion_btn -->
+        </section>
+        <!-- termina header -->
+
+        <section class="skills-experience" id="habilidadesExperiencia">
+            <div class="skills-experience__box">
+                <div class="skill-experience__title">
+                    <h2>Experiencia y habilidades</h2>
+                    <p>
+                        El trabajo duro de termina la experiencia y las
+                        habilidades que uno adquiere a lo largo de su carrera.
+                    </p>
+                </div>
+                <div class="experience">
+                    <h3>Experiencia</h3>
+                    <div class="experience__item">
+                        <p>2022 - Act.</p>
+                        <div>
+                            <h4>Academlo</h4>
+                            <p>Estudios para programador jr.</p>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                        <p>2016 - 2018</p>
+                        <div>
+                            <h4>Product designer</h4>
+                            <p>Miscrosoft</p>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                        <p>2016 - 2018</p>
+                        <div>
+                            <h4>UI Enginner</h4>
+                            <p>Google</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Email</p>
-            <p>example@gmail.com</p>
-          </div>
-        </div>
-        <p class="corp">  Ⓒ Derechos reservados</p>
-    </section>
-    <!-- termina contacto -->
-  </body>
+            <div class="habilidades">
+                <h3>Habilidades</h3>
+                <div class="habilidades__box">
+                    <img
+                        src="./assets/images/ant-design_mobile-filled.svg"
+                        alt=""
+                    />
+                    <p>Mobile app desing</p>
+                </div>
+                <div class="habilidades__box">
+                    <img src="./assets/images/mdi_motion.svg" alt="" />
+                    <p>Trabajo en equipo</p>
+                </div>
+                <div class="habilidades__box">
+                    <img src="./assets/images/mdi_material-design.svg" alt="" />
+                    <p>Creación de mantenimiento de sistemas de diseño</p>
+                </div>
+                <div class="habilidades__box">
+                    <img
+                        src="assets/images/ant-design_project-filled.svg"
+                        alt=""
+                    />
+                    <p>Gestión de proyectos</p>
+                </div>
+            </div>
+        </section>
+        <!-- termina habilidades y experencia -->
+        <section class="portafolio" id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="portafolio__item">
+                <h3>Beauty app</h3>
+                <img src="assets/images/Group 48.jpg" alt="" />
+            </div>
+            <div class="portafolio__item">
+                <h3>Training app</h3>
+                <img src="assets/images/Group 47.jpg" alt="" />
+            </div>
+            <div class="portafolio__item">
+                <h3>Hotel app</h3>
+                <img src="assets/images/Group 46.jpg" alt="" />
+            </div>
+        </section>
+        <!-- * termina portafolio -->
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto__box">
+                <div class="contacto__box-info">
+                    <div class="contacto__icon">
+                        <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M36.6669 28.2V33.2C36.6688 33.6642 36.5737 34.1236 36.3877 34.5489C36.2018 34.9742 35.929 35.356 35.587 35.6698C35.245 35.9836 34.8412 36.2225 34.4015 36.3712C33.9618 36.5199 33.4958 36.5751 33.0335 36.5333C27.9049 35.9761 22.9785 34.2236 18.6502 31.4167C14.6233 28.8578 11.2091 25.4436 8.65021 21.4167C5.83351 17.0687 4.08062 12.1183 3.53355 6.96666C3.4919 6.50577 3.54667 6.04126 3.69438 5.6027C3.84209 5.16414 4.0795 4.76114 4.39149 4.41936C4.70348 4.07758 5.08322 3.8045 5.50653 3.61753C5.92984 3.43055 6.38745 3.33376 6.85021 3.33332H11.8502C12.6591 3.32536 13.4432 3.61179 14.0565 4.13921C14.6698 4.66663 15.0703 5.39907 15.1835 6.19999C15.3946 7.8001 15.786 9.3712 16.3502 10.8833C16.5745 11.4799 16.623 12.1282 16.4901 12.7515C16.3571 13.3747 16.0483 13.9468 15.6002 14.4L13.4835 16.5167C15.8561 20.6892 19.311 24.1441 23.4835 26.5167L25.6002 24.4C26.0534 23.9519 26.6255 23.6431 27.2487 23.5101C27.872 23.3772 28.5203 23.4257 29.1169 23.65C30.629 24.2142 32.2001 24.6056 33.8002 24.8167C34.6098 24.9309 35.3492 25.3387 35.8778 25.9625C36.4063 26.5863 36.6872 27.3826 36.6669 28.2Z"
+                                fill="#8e7bef"
+                            />
+                        </svg>
+                    </div>
+                    <p>Número celular</p>
+                    <p>5522123456</p>
+                </div>
+                <div class="contacto__box-info">
+                    <div class="contacto__icon">
+                        <svg
+                            width="40"
+                            height="40"
+                            viewBox="0 0 40 40"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M6.66683 6.66666H33.3335C35.1668 6.66666 36.6668 8.16666 36.6668 9.99999V30C36.6668 31.8333 35.1668 33.3333 33.3335 33.3333H6.66683C4.8335 33.3333 3.3335 31.8333 3.3335 30V9.99999C3.3335 8.16666 4.8335 6.66666 6.66683 6.66666Z"
+                                fill="#8e7bef"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999"
+                                fill="#8e7bef"
+                            />
+                            <path
+                                d="M36.6668 9.99999L20.0002 21.6667L3.3335 9.99999"
+                                stroke="white"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                    <p>Email</p>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+            <p class="corp">Ⓒ Derechos reservados</p>
+        </section>
+        <!-- termina contacto -->
+    </body>
 </html>
