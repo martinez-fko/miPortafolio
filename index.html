@@ -25,55 +25,64 @@
             </ul>
         </nav>
 
-        <section class="header">
-            <div class="header__box-titulo">
-                <h1>Frontend developer</h1>
-                <h3>Hola Mundo! Soy Francisco Martínez tengo 29 años.</h3>
-            </div>
-            <div class="header__box-image">
-                <img src="assets/images/francisco.jpeg" alt="" />
-            </div>
+        <header class="header">
+            <section class="container header-box">
+                <section class="principal">
+                    <h1 class="principal-title">Design experience</h1>
+                    <p class="principal-text">
+                        Hola Mundo! Soy Francisco Martínez tengo 29 años.
+                    </p>
+                </section>
+                <section class="info">
+                    <img
+                        src="assets/images/francisco.jpeg"
+                        alt="Foto de Perfil"
+                    />
+                    <div class="box-info">
+                        <p class="info-texto">
+                            Me gusta desarrollar mis habilidades como
+                            programador.
+                        </p>
+                        <p class="info-exper">
+                            <span class="info-exper__text">+1 año </span> de
+                            experencia
+                        </p>
+                        <div class="box-icon">
+                            <a href="#" class="box-icon__box">
+                                <img
+                                    src="assets/images/cib_linkedin-in.svg"
+                                    alt="Linkedin"
+                                />
+                            </a>
+                            <a href="#" class="box-icon__box">
+                                <img
+                                    src="assets/images/ant-design_instagram-filled.svg"
+                                    alt="Instagram"
+                                />
+                            </a>
+                            <a href="#" class="box-icon__box">
+                                <img
+                                    src="assets/images/ant-design_twitter-outlined.svg"
+                                    alt="Twitter"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="contactame">
+                    <button class="contactame__btn">
+                        <img src="./assets/images/mail 3.svg" alt="" />
+                        Contáctame
+                    </button>
+                </section>
+            </section>
+        </header>
 
-            <div class="header__box-info">
-                <p>Me gusta desarrollar mis habilidades como programador.</p>
-                <p><span>+ 1 año </span> de experencia</p>
-
-                <div class="header__redes">
-                    <a class="header__icon" href="#">
-                        <img src="assets/images/cib_linkedin-in.svg" alt="" />
-                    </a>
-                    <a class="header__icon" href="#">
-                        <img
-                            src="assets/images/ant-design_instagram-filled.svg"
-                            alt=""
-                        />
-                    </a>
-                    <a class="header__icon" href="#">
-                        <img
-                            src="assets/images/ant-design_twitter-outlined.svg"
-                            alt=""
-                        />
-                    </a>
-                </div>
-                <!-- termina seccion__redes -->
-            </div>
-            <!-- termina seccion_info -->
-
-            <div class="header__box-btn">
-                <a href="">
-                    <img src="./assets/images/mail 3.svg" alt="" />
-                    Contáctame
-                </a>
-            </div>
-            <!-- termina seccion_btn -->
-        </section>
-        <!-- termina header -->
-
-        <section class="skills-experience" id="habilidadesExperiencia">
-            <div class="skills-experience__box">
-                <div class="skill-experience__title">
-                    <h2>Experiencia y habilidades</h2>
-                    <p>
+        <main class="main">
+            <section class="container skillAndExperience">
+                <div class="informacion">
+                    <h3 class="title-section">Experiencia y habilidades</h3>
+                    <p class="text-section">
                         El trabajo duro de termina la experiencia y las
                         habilidades que uno adquiere a lo largo de su carrera.
                     </p>
@@ -81,57 +90,56 @@
                 <div class="experience">
                     <h3>Experiencia</h3>
                     <div class="experience__item">
-                        <p>2022 - Act.</p>
-                        <div>
-                            <h4>Academlo</h4>
-                            <p>Estudios para programador jr.</p>
-                        </div>
+                        <p class="experience__date">2022 - Act.</p>
+                        <h4 class="experience__title">Academlo</h4>
+                        <p class="experience__info">
+                            Estudios para programador jr.
+                        </p>
                     </div>
                     <div class="experience__item">
-                        <p>2016 - 2018</p>
-                        <div>
-                            <h4>Product designer</h4>
-                            <p>Miscrosoft</p>
-                        </div>
+                        <p class="experience__date">2016 - 2018</p>
+                        <h4 class="experience__title">Product designer</h4>
+                        <p class="experience__info">Miscrosoft</p>
                     </div>
                     <div class="experience__item">
-                        <p>2016 - 2018</p>
-                        <div>
-                            <h4>UI Enginner</h4>
-                            <p>Google</p>
-                        </div>
+                        <p class="experience__date">2016 - 2018</p>
+                        <h4 class="experience__title">UI Enginner</h4>
+                        <p class="experience__info">Google</p>
                     </div>
                 </div>
-            </div>
-            <div class="habilidades">
-                <h3>Habilidades</h3>
-                <div class="habilidades__box">
-                    <img
-                        src="./assets/images/ant-design_mobile-filled.svg"
-                        alt=""
-                    />
-                    <p>Mobile app desing</p>
+                <div class="skill">
+                    <h3 class="title-skill">Habilidades</h3>
+                    <div class="skill__box">
+                        <img
+                            src="./assets/images/ant-design_mobile-filled.svg"
+                            alt=""
+                        />
+                        <p>Mobile app desing</p>
+                    </div>
+                    <div class="skill__box">
+                        <img src="./assets/images/mdi_motion.svg" alt="" />
+                        <p>Trabajo en equipo</p>
+                    </div>
+                    <div class="skill__box">
+                        <img
+                            src="./assets/images/mdi_material-design.svg"
+                            alt=""
+                        />
+                        <p>Creación de mantenimiento de sistemas de diseño</p>
+                    </div>
+                    <div class="skill__box">
+                        <img
+                            src="assets/images/ant-design_project-filled.svg"
+                            alt=""
+                        />
+                        <p>Gestión de proyectos</p>
+                    </div>
                 </div>
-                <div class="habilidades__box">
-                    <img src="./assets/images/mdi_motion.svg" alt="" />
-                    <p>Trabajo en equipo</p>
-                </div>
-                <div class="habilidades__box">
-                    <img src="./assets/images/mdi_material-design.svg" alt="" />
-                    <p>Creación de mantenimiento de sistemas de diseño</p>
-                </div>
-                <div class="habilidades__box">
-                    <img
-                        src="assets/images/ant-design_project-filled.svg"
-                        alt=""
-                    />
-                    <p>Gestión de proyectos</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </main>
         <!-- termina habilidades y experencia -->
-        <section class="portafolio" id="portafolio">
-            <h2>Portafolio</h2>
+        <section class="container portafolio" id="portafolio">
+            <h3 class="title-section portafolio__title">Portafolio</h3>
             <div class="portafolio__item">
                 <h3>Beauty app</h3>
                 <img src="assets/images/Group 48.jpg" alt="" />
@@ -145,9 +153,9 @@
                 <img src="assets/images/Group 46.jpg" alt="" />
             </div>
         </section>
-        <!-- * termina portafolio -->
-        <section class="contacto" id="contacto">
-            <h2>Contacto</h2>
+        <!-- termina portafolio -->
+        <section class="container" id="contacto">
+            <h3 class="title-section">Contacto</h3>
             <div class="contacto__box">
                 <div class="contacto__box-info">
                     <div class="contacto__icon">
@@ -164,8 +172,8 @@
                             />
                         </svg>
                     </div>
-                    <p>Número celular</p>
-                    <p>5522123456</p>
+                    <p class="contact-title">Número celular</p>
+                    <p class="contact-text">5522123456</p>
                 </div>
                 <div class="contacto__box-info">
                     <div class="contacto__icon">
@@ -197,8 +205,8 @@
                             />
                         </svg>
                     </div>
-                    <p>Email</p>
-                    <p>example@gmail.com</p>
+                    <p class="contact-title">Email</p>
+                    <p class="contact-text">example@gmail.com</p>
                 </div>
             </div>
             <p class="corp">Ⓒ Derechos reservados</p>
